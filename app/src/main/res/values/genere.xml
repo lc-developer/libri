@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_genere">
+        <item>Romanzo</item>
+        <item>Saggio</item>
+        <item>Poesia</item>
+        <item>Fumetto</item>
+        <item>Fiaba</item>
+        <item>Altro</item>
+    </string-array>
+</resources>

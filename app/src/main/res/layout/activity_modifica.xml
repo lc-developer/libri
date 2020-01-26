@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GestioneActivity"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Titolo"/>
+
+    <EditText
+        android:id="@+id/titoloEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:textSize="16sp"
+        tools:text="titolo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Autore"/>
+
+    <EditText
+        android:id="@+id/autoreEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:textSize="16sp"
+        tools:text="autore"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Genere"/>
+
+    <Spinner
+        android:id="@+id/genereSpinner"
+        android:layout_height="48dp"
+        android:layout_width="match_parent"
+        android:paddingRight="16dp"
+        android:spinnerMode="dropdown"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Editore"/>
+
+    <EditText
+        android:id="@+id/editoreEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:textSize="16sp"
+        tools:text="editore"/>
+
+    <Button
+        android:id="@+id/buttonSalva"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16sp"
+        android:text="salva"
+        android:layout_gravity="center"
+        android:textColor="#ffffff"
+        android:background="@color/colorPrimaryDark"/>
+
+</LinearLayout>
